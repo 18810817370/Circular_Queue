@@ -1,4 +1,4 @@
-#pragma once
+О╩©#pragma once
 #define Data int
 
 class LNode
@@ -14,10 +14,10 @@ class CircularQueue
 public:
 	CircularQueue();
 	~CircularQueue();
-	void InitCircularQueue();												//ЁУй╪╩╞╤сап
-	bool CircularQueueEmpty();												//еп╤оя╜╩╥╤сап©у
-	bool IntoCircularQueue(Data x);											//хКя╜╩╥╤сап
-	bool OutCircularQueue(Data &x);											//ЁЖя╜╩╥╤сап
+	void InitCircularQueue();												//Е┬²Е╖▀Е▄√И≤÷Е┬≈
+	bool CircularQueueEmpty();												//Е┬╓Ф√╜Е╬╙Г▌╞И≤÷Е┬≈Г╘╨
+	bool IntoCircularQueue(Data x);											//Е┘╔Е╬╙Г▌╞И≤÷Е┬≈
+	bool OutCircularQueue(Data &x);											//Е┤╨Е╬╙Г▌╞И≤÷Е┬≈
 private:
 	LNode *rear = NULL;
 };
